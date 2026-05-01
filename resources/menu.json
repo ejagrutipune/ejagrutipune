@@ -1,9 +1,6 @@
 {
     "Machine Learning": {
-        "My Python":{
-            "My Topic":["your_topic.png", "RidgeRegression.pdf", "PyTorch"]
+        "Supervised Learning":["LinearRegression.ejagruti", "RidgeRegression.ejagruti"]
         },
-        "R": ["caret", "randomForest", "xgboost"]
-    },
     "Others":["Visual_Studio_Code.ejagruti", "Jupyter Notebook"]
 }
