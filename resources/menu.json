@@ -2,5 +2,5 @@
     "Machine Learning": {
         "Supervised Learning":["LinearRegression.ejagruti", "RidgeRegression.ejagruti"]
         },
-    "Others":["Visual_Studio_Code.ejagruti", "Jupyter Notebooks"]
+    "Others":["visual_studio_code.ejagruti", "Jupyter Notebooks"]
 }
