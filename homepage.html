@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!!Welcome!!!</title>
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+    <link rel="stylesheet" href="https://www.jeasyui.com/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" href="https://www.jeasyui.com/easyui/themes/icon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+    <div class="top-div">
+        <div class="top-left">
+            <img src="images/logo.jpg" alt="Ejagruti Logo" class="top-logo">
+        </div>
+        <div class="top-middle">
+            <h2 id="navWelcome" class="nav-welcome">Welcome User</h2>
+        </div>
+        <div class="top-right">
+            <a href="#" id="logoutLink" class="logout-link">Logout</a>
+        </div>
+    </div>
+
+    <div class="middle-div">
+        <!-- <h3 class="middle-title">Menu</h3> -->
+        <div id="dynamicMenu" class="menu-container"></div>
+        <div id="dynamicMenusPool" class="menus-pool"></div>
+        <!-- <p id="menuStatus" class="menu-status">Loading menu...</p> -->
+    </div>
+
+    <div class="bottom-div">
+        <center>
+        <div class="bottom-header">Selected Content</div>
+        <div id="bottomContent" class="bottom-content">
+            <p class="bottom-placeholder">Select a leaf menu item to open matching content from the courses folder.</p>
+        </div></center>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="js/homepage-script.js"></script>
+</body>
+</html>

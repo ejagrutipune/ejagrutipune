@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - Ejagruti</title>
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/error.css">
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-card">
+            <!-- Error Icon -->
+            <div class="error-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80" height="80">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 7v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="12" cy="16" r="1" fill="currentColor"/>
+                </svg>
+            </div>
+
+            <!-- Error Message -->
+            <h1 class="error-title">Access Denied</h1>
+            <p class="error-message" id="errorMsg">Your email is not authorized to access Ejagruti. Please contact the administrator.</p>
+
+            <!-- Email Display -->
+            <div class="email-display" id="emailDisplay"></div>
+
+            <!-- Action Button -->
+            <a href="index.html" class="error-btn">
+                <span>Back to Login</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/error-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f3f5ff 0%, #e8ecff 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e1f3b;
+    display: block;
+    padding: 0;
+}
+
+.top-div {
+    display: grid;
+    grid-template-columns: 180px 1fr 180px;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 20px;
+    background: linear-gradient(135deg, #153677 0%, #4e085f 100%);
+    box-shadow: 0 6px 20px rgba(19, 34, 85, 0.25);
+}
+
+.top-left,
+.top-middle,
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-left {
+    justify-content: flex-start;
+}
+
+.top-middle {
+    justify-content: center;
+}
+
+.top-right {
+    justify-content: flex-end;
+}
+
+.top-logo {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 4px;
+}
+
+.nav-welcome {
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.logout-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 8px;
+}
+
+.logout-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.middle-div {
+    margin: 24px 0 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e2e7ff;
+    box-shadow: 0 14px 32px rgba(26, 45, 102, 0.12);
+    padding: 24px;
+}
+
+.middle-title {
+    margin: 0 0 14px;
+    font-size: 24px;
+    color: #1a2d66;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+}
+
+.menus-pool {
+    display: none;
+}
+
+.menu-container .easyui-menubutton {
+    border-radius: 10px;
+}
+
+.menu-container .l-btn {
+    background: linear-gradient(135deg, #1f3f87 0%, #5a1f73 100%);
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0;
+    box-shadow: 0 8px 16px rgba(34, 54, 122, 0.24);
+}
+
+.menu-container .l-btn:hover {
+    background: linear-gradient(135deg, #274da6 0%, #6e278d 100%);
+}
+
+.menu-container .l-btn-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 0 14px;
+}
+
+.menu-container .l-btn-icon-right {
+    right: 8px;
+}
+
+.menu-item-content {
+    font-size: 13px;
+    color: #25335f;
+}
+
+/* EasyUI menu panel styling */
+.menu {
+    border: 1px solid #eadfcf;
+    border-radius: 12px;
+    box-shadow: 0 14px 32px rgba(35, 56, 122, 0.2);
+    padding: 6px;
+    background: linear-gradient(180deg, #fffdf7 0%, #f8f1df 100%);
+}
+
+.menu-item {
+    border-radius: 8px;
+    margin: 2px 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid transparent;
+}
+
+.menu-item .menu-text {
+    color: #5c4b31;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.menu-line {
+    border-color: #efe4d1;
+}
+
+.menu-rightarrow {
+    opacity: 0.95;
+}
+
+.menu-active {
+    border: 1px solid #e7d9bb;
+    background: linear-gradient(135deg, #fbf3df 0%, #f5e8c8 100%);
+}
+
+.group-menu-item .menu-text {
+    font-weight: 700;
+}
+
+.leaf-menu-item .menu-text {
+    color: #6a5b41;
+}
+
+.menu-status {
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: #5f668b;
+    font-size: 13px;
+}
+
+.bottom-div {
+    margin: 0 0 24px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 120px;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px dashed #d8def7;
+    padding: 16px;
+}
+
+.bottom-header {
+    font-size: 18px;
+    font-weight: 700;
+    color: #20356f;
+    margin-bottom: 12px;
+}
+
+.bottom-content {
+    min-height: 160px;
+    border: 1px solid #e1e7ff;
+    border-radius: 12px;
+    background: #f9fbff;
+    padding: 12px;
+}
+
+.bottom-placeholder,
+.bottom-error,
+.bottom-path {
+    margin: 0;
+    color: #44517d;
+    font-size: 14px;
+}
+
+.bottom-path {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #27408b;
+}
+
+.bottom-preview-image {
+    max-width: 100%;
+    max-height: 420px;
+    border-radius: 10px;
+    border: 1px solid #d5defd;
+    background: #ffffff;
+    object-fit: contain;
+}
+
+.bottom-preview-pdf {
+    border: 1px solid #d5defd;
+    border-radius: 10px;
+    background: #eef2ff;
+    padding: 12px;
+    max-height: 620px;
+    overflow: auto;
+}
+
+.pdf-page-wrap {
+    margin-bottom: 14px;
+}
+
+.pdf-page-label {
+    margin: 0 0 8px;
+    font-size: 13px;
+    color: #44517d;
+    font-weight: 600;
+}
+
+.pdf-canvas {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background: #ffffff;
+    border: 1px solid #d5defd;
+    border-radius: 8px;
+}
+
+.bottom-content {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+    .top-div {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 10px;
+    }
+
+    .top-left,
+    .top-middle,
+    .top-right {
+        justify-content: center;
+    }
+
+    .nav-welcome {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .middle-div {
+        padding: 18px;
+    }
+
+    .menu-container {
+        gap: 8px;
+    }
+}
