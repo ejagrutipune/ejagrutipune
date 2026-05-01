@@ -1,7 +1,7 @@
 {
     "Machine Learning": {
         "My Python":{
-            "My topic":["your_topic.png", "RidgeRegression.pdf", "PyTorch"]
+            "My Topic":["your_topic.png", "RidgeRegression.pdf", "PyTorch"]
         },
         "R": ["caret", "randomForest", "xgboost"]
     },
