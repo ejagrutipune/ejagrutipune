@@ -42,12 +42,15 @@ body {
 }
 
 .logo {
-    max-width: 120px;
-    height: auto;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    animation: fadeInDown 0.8s ease-out;
+    /* background: #ffffff; */
+    padding: 4px;
+
 }
+
 
 @keyframes fadeInDown {
     from {
