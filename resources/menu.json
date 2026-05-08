@@ -1,7 +1,7 @@
 {
     "Machine Learning": {
         "Supervised Learning":["SimpleLinearRegression.ejagruti","SimpleLinearRegression1.ejagruti","MultipleLinearRegression.ejagruti","PolynomialRegression.ejagruti","RidgeRegression.ejagruti","LassoRegression.ejagruti"],
-        "Unsupervised Learning":["KMeans_Clustering.ejagruti"]  
+        "Unsupervised Learning":["KMeansClustering.ejagruti"]  
     },
     "Setup":["Visual_Studio_Code.ejagruti", "Jupyter Notebooks"],
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
