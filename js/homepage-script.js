@@ -104,7 +104,7 @@ function createPathCandidates(trail) {
     const lastSegment = cleanTrail[cleanTrail.length - 1];
     
     // Check if last segment already has an extension
-    const hasExtension = /\.(png|jpg|jpeg|gif|webp|svg|pdf|html|ejagruti)$/i.test(lastSegment);
+    const hasExtension = /\.(png|jpg|jpeg|gif|webp|svg|pdf|html|ejagruti|xlsx)$/i.test(lastSegment);
     
     if (hasExtension) {
         // If it has extension, use it directly and support pdf/ejagruti alias fallback.
@@ -298,6 +298,7 @@ function buildDisplayPath(trail, resolvedFilePath) {
     }
     return displayTrail.join(' > ');
 }
+
 async function handleLeafClick(leafNode) {
     const trail = JSON.parse(leafNode.dataset.menuTrail || '[]');
     const readablePath = trail.join(' > ');
@@ -316,64 +317,15 @@ async function handleLeafClick(leafNode) {
 
     const displayPath = buildDisplayPath(trail, match);
 
-    // ✅ Extract file extension
-    const extensionMatch = match.match(/\.([a-z0-9]+)$/i);
-    const extension = extensionMatch ? extensionMatch[1].toLowerCase() : '';
-
-    // ✅ Supported preview extensions
-    const PREVIEW_EXTENSIONS = [
-        'png', 'jpg', 'jpeg', 'gif', 'webp', 'svg',
-        'pdf', 'ejagruti', 'html'
-    ];
-
-    // ✅ Download ONLY if file is NOT supported
-    if (!PREVIEW_EXTENSIONS.includes(extension)) {
-        const link = document.createElement('a');
-        link.href = match;
-        link.download = '';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        return;
-    }
-
-    // ✅ Preview supported files
-    if (extension === 'pdf' || extension === 'ejagruti') {
+    // Determine file type and render appropriately
+    if (/\.(pdf|ejagruti)$/i.test(match)) {
         await renderBottomPDF(displayPath, match);
-    } else if (extension === 'html') {
+    } else if (/\.html$/i.test(match)) {
         renderBottomHTML(displayPath, match);
     } else {
         renderBottomImage(displayPath, match);
     }
 }
-
-// async function handleLeafClick(leafNode) {
-//     const trail = JSON.parse(leafNode.dataset.menuTrail || '[]');
-//     const readablePath = trail.join(' > ');
-//     const candidates = createPathCandidates(trail);
-
-//     if (!candidates.length) {
-//         renderBottomError('Unable to determine path from selected menu item.');
-//         return;
-//     }
-
-//     const match = await resolveFirstExistingFile(candidates);
-//     if (!match) {
-//         renderBottomError(`No matching file found for ${readablePath}. Tried: ${candidates.join(', ')}`);
-//         return;
-//     }
-
-//     const displayPath = buildDisplayPath(trail, match);
-
-//     // Determine file type and render appropriately
-//     if (/\.(pdf|ejagruti)$/i.test(match)) {
-//         await renderBottomPDF(displayPath, match);
-//     } else if (/\.html$/i.test(match)) {
-//         renderBottomHTML(displayPath, match);
-//     } else {
-//         renderBottomImage(displayPath, match);
-//     }
-// }
 
 function renderDynamicMenu(menuData) {
     const host = document.getElementById('dynamicMenu');
