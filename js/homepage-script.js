@@ -299,33 +299,33 @@ function buildDisplayPath(trail, resolvedFilePath) {
     return displayTrail.join(' > ');
 }
 
-async function handleLeafClick(leafNode) {
-    const trail = JSON.parse(leafNode.dataset.menuTrail || '[]');
-    const readablePath = trail.join(' > ');
-    const candidates = createPathCandidates(trail);
+// async function handleLeafClick(leafNode) {
+//     const trail = JSON.parse(leafNode.dataset.menuTrail || '[]');
+//     const readablePath = trail.join(' > ');
+//     const candidates = createPathCandidates(trail);
 
-    if (!candidates.length) {
-        renderBottomError('Unable to determine path from selected menu item.');
-        return;
-    }
+//     if (!candidates.length) {
+//         renderBottomError('Unable to determine path from selected menu item.');
+//         return;
+//     }
 
-    const match = await resolveFirstExistingFile(candidates);
-    if (!match) {
-        renderBottomError(`No matching file found for ${readablePath}. Tried: ${candidates.join(', ')}`);
-        return;
-    }
+//     const match = await resolveFirstExistingFile(candidates);
+//     if (!match) {
+//         renderBottomError(`No matching file found for ${readablePath}. Tried: ${candidates.join(', ')}`);
+//         return;
+//     }
 
-    const displayPath = buildDisplayPath(trail, match);
+//     const displayPath = buildDisplayPath(trail, match);
 
-    // Determine file type and render appropriately
-    if (/\.(pdf|ejagruti)$/i.test(match)) {
-        await renderBottomPDF(displayPath, match);
-    } else if (/\.html$/i.test(match)) {
-        renderBottomHTML(displayPath, match);
-    } else {
-        renderBottomImage(displayPath, match);
-    }
-}
+//     // Determine file type and render appropriately
+//     if (/\.(pdf|ejagruti)$/i.test(match)) {
+//         await renderBottomPDF(displayPath, match);
+//     } else if (/\.html$/i.test(match)) {
+//         renderBottomHTML(displayPath, match);
+//     } else {
+//         renderBottomImage(displayPath, match);
+//     }
+// }
 
 function renderDynamicMenu(menuData) {
     const host = document.getElementById('dynamicMenu');
@@ -453,3 +453,66 @@ document.addEventListener('DOMContentLoaded', function() {
         return false;
     });
 });
+async function forceDownload(url) {
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error('Download failed');
+        }
+
+        const blob = await response.blob();
+        const objectUrl = window.URL.createObjectURL(blob);
+
+        const link = document.createElement('a');
+        link.href = objectUrl;
+        link.download = url.split('/').pop(); // keep original filename
+        document.body.appendChild(link);
+        link.click();
+
+        document.body.removeChild(link);
+        window.URL.revokeObjectURL(objectUrl);
+    } catch (error) {
+        alert('Unable to download file.');
+        console.error(error);
+    }
+}
+async function handleLeafClick(leafNode) {
+    const trail = JSON.parse(leafNode.dataset.menuTrail || '[]');
+    const candidates = createPathCandidates(trail);
+
+    if (!candidates.length) {
+        renderBottomError('Unable to determine file.');
+        return;
+    }
+
+    const match = await resolveFirstExistingFile(candidates);
+    if (!match) {
+        renderBottomError('File not found.');
+        return;
+    }
+
+    const displayPath = buildDisplayPath(trail, match);
+
+    const extensionMatch = match.match(/\.([a-z0-9]+)$/i);
+    const extension = extensionMatch ? extensionMatch[1].toLowerCase() : '';
+
+    const PREVIEW_EXTENSIONS = [
+        'png', 'jpg', 'jpeg', 'gif', 'webp', 'svg',
+        'pdf', 'ejagruti', 'html'
+    ];
+
+    // ✅ FORCE DOWNLOAD for unsupported files
+    if (!PREVIEW_EXTENSIONS.includes(extension)) {
+        await forceDownload(match);
+        return;
+    }
+
+    // ✅ Normal preview
+    if (extension === 'pdf' || extension === 'ejagruti') {
+        await renderBottomPDF(displayPath, match);
+    } else if (extension === 'html') {
+        renderBottomHTML(displayPath, match);
+    } else {
+        renderBottomImage(displayPath, match);
+    }
+}
