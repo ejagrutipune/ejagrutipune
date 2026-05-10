@@ -6,5 +6,5 @@
     },
     "Setup":["Visual_Studio_Code.ejagruti", "Jupyter Notebooks"],
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
-    "Others":["GradientDescent.ejagruti"]
+    "Others":["GradientDescent.ejagruti","UnderstandHowGradientDescentWorks.xlsx","BiasVarianceTradeoff.ejagruti"]
 }
