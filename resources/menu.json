@@ -4,7 +4,7 @@
         "Unsupervised Learning":["KMeans_Clustering.ejagruti","Decision_Tree_Classification.ejagruti","Decision_Tree_Regressor.ejagruti"],
         "Reinforcement Learning":["RL_Using_QTable.ejagruti"]
     },
-    "Setup":["Visual_Studio_Code.ejagruti", "Jupyter Notebooks"],
+    "Setup":["Visual_Studio_Code.ejagruti", "CodingViaJupyterNotebook.ejagruti"],
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx","BiasVarianceTradeoff.ejagruti"]
 }
