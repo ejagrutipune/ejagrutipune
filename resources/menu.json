@@ -7,5 +7,6 @@
     "Setup":["Visual_Studio_Code.ejagruti", "CodingViaJupyterNotebook.ejagruti"],
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
-    "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg"]
+    "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg"],
+    "Linear Algebra":["MatrixDotProducts.jpg"]
 }
