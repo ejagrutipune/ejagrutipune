@@ -11,10 +11,11 @@
     "Linear Algebra":["MatrixDotProducts.jpg"],
     "Sample Code":{
         "OpenCV":["ComputerVision1.ipynb","VideoProcessing.py"],
-        "Numpy":["Numpy_Basic.ejagruti","Numpy_Advance.ejagruti"],
         "Pandas":["Pandas_Basic.ejagruti","Pandas_Advance.ejagruti"],
         "Matplotlib":["Matplotlib_Basic.ejagruti","Matplotlib_Advance.e jagruti"],
         "Seaborn":["Seaborn_Basic.ejagruti","Seaborn_Advance.ejagruti"],
         "Scikit-Learn":["ScikitLearn_Basic.ejagruti","ScikitLearn_Advance.ejagruti"]    
-    }
+    },
+    "Numpy":["NumPy.ejagruti"],
+    "Pandas":["Pandas.ejagruti"]
 }
