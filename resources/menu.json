@@ -13,6 +13,7 @@
         "OpenCV":["ComputerVision1.ipynb","VideoProcessing.py"],
         "Pandas":["Pandas.ejagruti"],
         "Numpy":["NumPy.ejagruti"],
+        "Python":["Python.ejagruti"],
         "Matplotlib":["Matplotlib_Basic.ejagruti","Matplotlib_Advance.e jagruti"],
         "Seaborn":["Seaborn_Basic.ejagruti","Seaborn_Advance.ejagruti"],
         "Scikit-Learn":["ScikitLearn_Basic.ejagruti","ScikitLearn_Advance.ejagruti"]    
