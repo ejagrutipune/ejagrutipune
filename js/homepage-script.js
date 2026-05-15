@@ -104,7 +104,7 @@ function createPathCandidates(trail) {
     const lastSegment = cleanTrail[cleanTrail.length - 1];
     
     // Check if last segment already has an extension
-    const hasExtension = /\.(png|jpg|jpeg|gif|webp|svg|pdf|html|ejagruti|xlsx)$/i.test(lastSegment);
+    const hasExtension = /\.(png|jpg|jpeg|gif|webp|svg|pdf|html|ejagruti|xlsx|ipynb|py)$/i.test(lastSegment);
     
     if (hasExtension) {
         // If it has extension, use it directly and support pdf/ejagruti alias fallback.
