@@ -8,5 +8,13 @@
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
     "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg"],
-    "Linear Algebra":["MatrixDotProducts.jpg"]
+    "Linear Algebra":["MatrixDotProducts.jpg"],
+    "Sample Code":{
+        "OpenCV":["ComputerVision1.ipynb","VideoProcessing.py"],
+        "Numpy":["Numpy_Basic.ejagruti","Numpy_Advance.ejagruti"],
+        "Pandas":["Pandas_Basic.ejagruti","Pandas_Advance.ejagruti"],
+        "Matplotlib":["Matplotlib_Basic.ejagruti","Matplotlib_Advance.e jagruti"],
+        "Seaborn":["Seaborn_Basic.ejagruti","Seaborn_Advance.ejagruti"],
+        "Scikit-Learn":["ScikitLearn_Basic.ejagruti","ScikitLearn_Advance.ejagruti"]    
+    }
 }
