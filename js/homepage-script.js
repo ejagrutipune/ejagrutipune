@@ -128,7 +128,7 @@ function createPathCandidates(trail) {
     // Otherwise, try multiple extensions
     const fileStem = normalizePathSegment(lastSegment);
     const base = ['courses', ...folderSegments, fileStem].join('/');
-    const extensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.pdf', '.ejagruti', '.html'];
+    const extensions = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg', '.pdf', '.ejagruti', '.html','.xlsx','.ipynb','.py'];
 
     return extensions.map((ext) => `${base}${ext}`);
 }
@@ -472,8 +472,7 @@ async function forceDownload(url) {
         document.body.removeChild(link);
         window.URL.revokeObjectURL(objectUrl);
     } catch (error) {
-        alert('Unable to download file.');
-        console.error(error);
+             console.error(error);
     }
 }
 async function handleLeafClick(leafNode) {
@@ -503,6 +502,7 @@ async function handleLeafClick(leafNode) {
 
     // ✅ FORCE DOWNLOAD for unsupported files
     if (!PREVIEW_EXTENSIONS.includes(extension)) {
+        alert(extension)
         await forceDownload(match);
         return;
     }
