@@ -453,28 +453,52 @@ document.addEventListener('DOMContentLoaded', function() {
         return false;
     });
 });
+// async function forceDownload(url) {
+//     try {
+//         const response = await fetch(url);
+//         if (!response.ok) {
+//             throw new Error('Download failed');
+//         }
+
+//         const blob = await response.blob();
+//         const objectUrl = window.URL.createObjectURL(blob);
+
+//         const link = document.createElement('a');
+//         link.href = objectUrl;
+//         link.download = url.split('/').pop(); // keep original filename
+//         document.body.appendChild(link);
+//         link.click();
+
+//         document.body.removeChild(link);
+//         window.URL.revokeObjectURL(objectUrl);
+//     } catch (error) {
+//              console.error(error);
+//     }
+// }
 async function forceDownload(url) {
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error('Download failed');
-        }
+  try {
+    const response = await fetch(url);
 
-        const blob = await response.blob();
-        const objectUrl = window.URL.createObjectURL(blob);
+    if (!response.ok) throw new Error();
 
-        const link = document.createElement('a');
-        link.href = objectUrl;
-        link.download = url.split('/').pop(); // keep original filename
-        document.body.appendChild(link);
-        link.click();
+    const blob = await response.blob();
+    const objectUrl = URL.createObjectURL(blob);
 
-        document.body.removeChild(link);
-        window.URL.revokeObjectURL(objectUrl);
-    } catch (error) {
-             console.error(error);
-    }
+    const a = document.createElement('a');
+    a.href = objectUrl;
+    a.download = url.split('/').pop();
+    a.click();
+
+    URL.revokeObjectURL(objectUrl);
+  } catch {
+    // fallback
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = url.split('/').pop();
+    a.click();
+  }
 }
+
 async function handleLeafClick(leafNode) {
     const trail = JSON.parse(leafNode.dataset.menuTrail || '[]');
     const candidates = createPathCandidates(trail);
