@@ -1,7 +1,7 @@
 {
     "Machine Learning": {
         "Supervised Learning":["SimpleLinearRegression.ejagruti","SimpleLinearRegression1.ejagruti",
-        "MultipleLinearRegression.ejagruti","PolynomialRegression.ejagruti","RidgeRegression.ejagruti",
+        "MultipleLinearRegression.ejagruti","MultipleLinearRegression1.ejagruti","PolynomialRegression.ejagruti","RidgeRegression.ejagruti",
         "LassoRegression.ejagruti","Logistic_Regression_For_Categorical_Data.ejagruti"],
         "Unsupervised Learning":["KMeans_Clustering.ejagruti","Decision_Tree_Classification.ejagruti","Decision_Tree_Regressor.ejagruti"],
         "Reinforcement Learning":["RL_Using_QTable.ejagruti"]
@@ -11,7 +11,7 @@
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
     "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg",
     "AIvsMLvsDL.gif","Core_Fundamental_Concepts.ejagruti","LogisticRegressionBasics_for_binary_data.xlsx"],
-    "Linear Algebra":["MatrixDotProducts.jpg"],
+    "Linear Algebra":["MatrixDotProducts.jpg","Derivative&ChainRules.ejagruti"],
     "Sample Code":{
         "OpenCV":["ComputerVision1.ipynb","VideoProcessing.py"],
         "Pandas":["Pandas.ejagruti"],
