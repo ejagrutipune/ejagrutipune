@@ -1,13 +1,16 @@
 {
     "Machine Learning": {
-        "Supervised Learning":["SimpleLinearRegression.ejagruti","SimpleLinearRegression1.ejagruti","MultipleLinearRegression.ejagruti","PolynomialRegression.ejagruti","RidgeRegression.ejagruti","LassoRegression.ejagruti"],
+        "Supervised Learning":["SimpleLinearRegression.ejagruti","SimpleLinearRegression1.ejagruti",
+        "MultipleLinearRegression.ejagruti","PolynomialRegression.ejagruti","RidgeRegression.ejagruti",
+        "LassoRegression.ejagruti","Logistic_Regression_For_Categorical_Data.ejagruti"],
         "Unsupervised Learning":["KMeans_Clustering.ejagruti","Decision_Tree_Classification.ejagruti","Decision_Tree_Regressor.ejagruti"],
         "Reinforcement Learning":["RL_Using_QTable.ejagruti"]
     },
     "Setup":["Visual_Studio_Code.ejagruti", "CodingViaJupyterNotebook.ejagruti","Python_Using_Google_Colab.ejagruti"],
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
-    "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg"],
+    "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg",
+    "AIvsMLvsDL.gif","Core_Fundamental_Concepts.ejagruti","LogisticRegressionBasics_for_binary_data.xlsx"],
     "Linear Algebra":["MatrixDotProducts.jpg"],
     "Sample Code":{
         "OpenCV":["ComputerVision1.ipynb","VideoProcessing.py"],

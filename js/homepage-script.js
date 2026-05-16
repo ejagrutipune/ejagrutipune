@@ -526,7 +526,6 @@ async function handleLeafClick(leafNode) {
 
     // ✅ FORCE DOWNLOAD for unsupported files
     if (!PREVIEW_EXTENSIONS.includes(extension)) {
-        alert(extension)
         await forceDownload(match);
         return;
     }
