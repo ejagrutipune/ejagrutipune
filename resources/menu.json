@@ -6,6 +6,9 @@
         "Unsupervised Learning":["KMeans_Clustering.ejagruti","Decision_Tree_Classification.ejagruti","Decision_Tree_Regressor.ejagruti"],
         "Reinforcement Learning":["RL_Using_QTable.ejagruti"]
     },
+    "Deep Learning": {
+        "Convolutional Neural Networks":["CNN.ejagruti"]
+    },
     "Setup":["Visual_Studio_Code.ejagruti", "CodingViaJupyterNotebook.ejagruti","Python_Using_Google_Colab.ejagruti"],
     "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
