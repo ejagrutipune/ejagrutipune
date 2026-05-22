@@ -263,7 +263,7 @@ body {
 }
 
 .image-coverage-path {
-    position: absolute;
+    position: relative;
     top: 5px;
     left: 16px;
     color: #27408b;
