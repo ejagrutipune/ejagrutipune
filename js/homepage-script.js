@@ -186,17 +186,32 @@ function renderBottomImage(pathLabel, imageUrl) {
     const host = document.getElementById('bottomContent');
     host.innerHTML = '';
 
-    const path = document.createElement('p');
-    path.className = 'bottom-path';
-    path.textContent = `Opened: ${pathLabel}`;
+    // Create fullscreen overlay container
+    const overlay = document.createElement('div');
+    overlay.className = 'fullscreen-image-overlay';
 
+    // Create close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'fullscreen-close-btn';
+    closeBtn.textContent = '✕';
+    closeBtn.title = 'Close';
+    closeBtn.onclick = () => overlay.remove();
+
+    // Create image
     const img = document.createElement('img');
-    img.className = 'bottom-preview-image';
+    img.className = 'fullscreen-preview-image';
     img.alt = pathLabel;
     img.src = imageUrl;
 
-    host.appendChild(path);
-    host.appendChild(img);
+    // Create path label
+    const path = document.createElement('p');
+    path.className = 'fullscreen-image-path';
+    path.textContent = `Opened: ${pathLabel}`;
+
+    overlay.appendChild(path);
+    overlay.appendChild(img);
+    overlay.appendChild(closeBtn);
+    host.appendChild(overlay);
 }
 
 async function renderBottomPDF(pathLabel, pdfUrl) {
