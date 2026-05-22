@@ -10,7 +10,8 @@
         "CNN":["CNN_Basics.ejagruti"]
     },
     "Setup":["Visual_Studio_Code.ejagruti", "CodingViaJupyterNotebook.ejagruti","Python_Using_Google_Colab.ejagruti"],
-    "Statistics":["Statistics.ejagruti","standard_deviation.jpg","HypothesisTesting.ejagruti","Euclidean_Distance.jpg"],
+    "Statistics":["Statistics.ejagruti","standard_deviation.jpg",
+    "HypothesisTesting.ejagruti","Euclidean_Distance.jpg","ProbabilityVsMaximumLikelihood.png"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
     "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg",
     "AIvsMLvsDL.gif","Core_Fundamental_Concepts.ejagruti","LogisticRegressionBasics_for_binary_data.xlsx"],
