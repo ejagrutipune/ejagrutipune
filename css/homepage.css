@@ -263,8 +263,8 @@ body {
 }
 
 .image-coverage-path {
-    position: relative;
-    top: 5px;
+    position: absolute;
+    top: -50px;
     left: 16px;
     color: #27408b;
     font-size: 14px;
