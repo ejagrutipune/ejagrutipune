@@ -130,6 +130,11 @@ body {
 .menu-item-content {
     font-size: 13px;
     color: #25335f;
+    padding: 6px 8px;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 /* EasyUI menu panel styling */
@@ -144,9 +149,10 @@ body {
 .menu-item {
     border-radius: 8px;
     margin: 2px 0;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border: 1px solid transparent;
+    min-height: auto;
 }
 
 .menu-item .menu-text {

@@ -42,7 +42,7 @@ function createLeafItem(value, trail) {
 
 function buildNestedMenu(value, trail) {
     const submenu = document.createElement('div');
-    submenu.style.width = '220px';
+    submenu.style.width = '320px';
 
     if (Array.isArray(value)) {
         value.forEach((entry) => {
@@ -81,7 +81,7 @@ function createEasyMenu(label, value, pool) {
     const menuDiv = document.createElement('div');
     menuDiv.id = menuId;
     menuDiv.className = 'easyui-menu generated-easy-menu';
-    menuDiv.style.width = '220px';
+    menuDiv.style.width = '420px';
 
     const rootContent = buildNestedMenu(value, [label]);
     while (rootContent.firstChild) {
