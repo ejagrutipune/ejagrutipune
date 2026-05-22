@@ -135,7 +135,6 @@ body {
     word-break: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    display: block;
 }
 
 /* EasyUI menu panel styling */
@@ -143,9 +142,8 @@ body {
     border: 1px solid #eadfcf;
     border-radius: 12px;
     box-shadow: 0 14px 32px rgba(35, 56, 122, 0.2);
-    padding: 8px;
+    padding: 6px;
     background: linear-gradient(180deg, #fffdf7 0%, #f8f1df 100%);
-    min-width: 300px;
 }
 
 .menu-item {
@@ -155,21 +153,12 @@ body {
     padding-bottom: 6px;
     border: 1px solid transparent;
     min-height: auto;
-    display: block;
 }
 
 .menu-item .menu-text {
     color: #5c4b31;
     font-size: 13px;
     font-weight: 600;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-    display: block;
-    padding: 4px 8px;
-    min-width: 250px;
-    line-height: 1.4;
 }
 
 .menu-line {
@@ -250,9 +239,7 @@ body {
 }
 
 .bottom-content.image-full-coverage {
-    display: flex;
     min-height: 500px;
-    height: auto;
     padding: 0 !important;
     border: none !important;
     background: #ffffff !important;
@@ -261,7 +248,7 @@ body {
 .image-coverage-container {
     position: relative;
     width: 100%;
-    min-height: 500px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,18 +264,17 @@ body {
 
 .image-coverage-path {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 16px;
+    left: 16px;
     color: #27408b;
     font-size: 14px;
     font-weight: 600;
     margin: 0;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 8px 12px;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     z-index: 100;
-    white-space: nowrap;
 }
 
 .image-coverage-close-btn {
