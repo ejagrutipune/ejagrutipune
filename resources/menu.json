@@ -2,19 +2,26 @@
     "Machine Learning": {
         "Supervised Learning":
         {
-            "What is Supervised Learning?":["SupervisedLearning.jpg"],
-            "Prerequisite" :["Types_Of_Data.png","Slope_Of_A_Line.png","Standard_Deviation.png"],
-            "Understand":["Supervised_Learning_Basics.ejagruti"]
+            "Prerequisite" :["What_Is_Supervised_Learning.jpg","Types_Of_Data.jpg","Sample_VS_Population_And_DegreeOfFreedom.jpg",
+            "Mean_Median_Mode.png","Slope_Of_A_Line.png","Standard_Deviation.png","Pearson_Correlation_Coefficient.jpg",
+            "Covariance.jpg","Coefficient_Of_Determination.jpg","ANOVA.jpg","Confussion_Matrix.jpg","Logit.png",
+            "Poisson_Distribution.png","Binomial_Distribution.png","ProbabilityVsMaximumLikelihood-Part1.png",
+            "ProbabilityVsMaximumLikelihood-Part2.png","ProbabilityVsMaximumLikelihood-Part3.png"],
+            "Understand":["Simple_Linear_Regression.jpg","Multiple_Linear_Regression-CaseStudy1.jpg",
+            "Multiple_Linear_Regression-CaseStudy2.jpg",
+            "Polynomial_Regression.jpg","Binary_Logistic_Regression-CaseStudy1.jpg",
+            "Multinomial_Logistic_Regression-CaseStudy1.jpg","Ordinal_Logistic_Regression-CaseStudy1.jpg"]
+        
         },
         "Unsupervised Learning":
         {   
-            "Prerequisite" :[""],
-            "Understand":["Unsupervised_Learning_Basics.ejagruti"]
+            "Prerequisite" :["What_Is_Unsupervised_Learning.jpg"],
+            "Understand":[""]
         },  
         "Reinforcement Learning":
         {
-            "Prerequisite" :[""],
-            "Understand":["Reinforcement_Learning_Basics.ejagruti"]
+            "Prerequisite" :["What_Is_Reinforcement_Learning.jpg"],
+            "Understand":[""]
         }
     },
     "Deep Learning": {
