@@ -168,7 +168,8 @@ body {
     white-space: normal;
     display: block;
     padding: 4px 8px;
-    max-width: 280px;
+    min-width: 250px;
+    line-height: 1.4;
 }
 
 .menu-line {
@@ -276,17 +277,18 @@ body {
 
 .image-coverage-path {
     position: absolute;
-    top: 10px;
-    left: 16px;
+    top: 20px;
+    left: 20px;
     color: #27408b;
     font-size: 14px;
     font-weight: 600;
     margin: 0;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px 16px;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     z-index: 100;
+    white-space: nowrap;
 }
 
 .image-coverage-close-btn {
