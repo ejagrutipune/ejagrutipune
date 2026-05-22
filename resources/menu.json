@@ -1,17 +1,34 @@
 {
     "Machine Learning": {
-        "Supervised Learning":["SimpleLinearRegression.ejagruti","SimpleLinearRegression1.ejagruti",
-        "MultipleLinearRegression.ejagruti","MultipleLinearRegression1.ejagruti","PolynomialRegression.ejagruti","RidgeRegression.ejagruti",
-        "LassoRegression.ejagruti","Logistic_Regression_For_Categorical_Data.ejagruti"],
-        "Unsupervised Learning":["KMeans_Clustering.ejagruti","Decision_Tree_Classification.ejagruti","Decision_Tree_Regressor.ejagruti"],
-        "Reinforcement Learning":["RL_Using_QTable.ejagruti"]
+        "Supervised Learning":
+        {
+            "What is Supervised Learning?":["SupervisedLearning.jpg"],
+            "Prerequisite" :["Types_Of_Data.png","Slope_Of_A_Line.png","Standard_Deviation.png"],
+            "Understand":["Supervised_Learning_Basics.ejagruti"]
+        },
+        "Unsupervised Learning":
+        {   
+            "Prerequisite" :[""],
+            "Understand":["Unsupervised_Learning_Basics.ejagruti"]
+        },  
+        "Reinforcement Learning":
+        {
+            "Prerequisite" :[""],
+            "Understand":["Reinforcement_Learning_Basics.ejagruti"]
+        }
     },
     "Deep Learning": {
-        "CNN":["CNN_Basics.ejagruti"]
+        "CNN":{
+           "Prerequisite" :["Neuron.png","Cross_Entropy.png"],
+           "Understand":["CNN_Basics.ejagruti"]
+        }
     },
     "Setup":["Visual_Studio_Code.ejagruti", "CodingViaJupyterNotebook.ejagruti","Python_Using_Google_Colab.ejagruti"],
-    "Statistics":["Statistics.ejagruti","standard_deviation.jpg",
-    "HypothesisTesting.ejagruti","Euclidean_Distance.jpg","ProbabilityVsMaximumLikelihood.png"],
+    "Statistics":["Statistics.ejagruti","standard_deviation.png",
+    "Mean_Median_Mode.png",
+    "HypothesisTesting.ejagruti","Euclidean_Distance.jpg",
+    "ProbabilityVsMaximumLikelihood-Part1.png","ProbabilityVsMaximumLikelihood-Part2.png",
+    "ProbabilityVsMaximumLikelihood-Part3.png","PoissonDistribution.png","Binomial_Distribution.png","Logit.png"],
     "Others":["GradientDescent.ejagruti","HowGradientDescentWorks.xlsx",
     "LossFunction.jpg","SupervisedLearning.jpg","UnSupervisedLearning.jpg","ReinforcementLearning.jpg",
     "AIvsMLvsDL.gif","Core_Fundamental_Concepts.ejagruti","LogisticRegressionBasics_for_binary_data.xlsx"],
