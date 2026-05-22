@@ -81,7 +81,7 @@ function createEasyMenu(label, value, pool) {
     const menuDiv = document.createElement('div');
     menuDiv.id = menuId;
     menuDiv.className = 'easyui-menu generated-easy-menu';
-    menuDiv.style.width = '420px';
+    menuDiv.style.width = '350px';
 
     const rootContent = buildNestedMenu(value, [label]);
     while (rootContent.firstChild) {
