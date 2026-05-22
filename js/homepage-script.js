@@ -185,33 +185,37 @@ function renderBottomError(message) {
 function renderBottomImage(pathLabel, imageUrl) {
     const host = document.getElementById('bottomContent');
     host.innerHTML = '';
+    host.className = 'bottom-content image-full-coverage';
 
-    // Create fullscreen overlay container
-    const overlay = document.createElement('div');
-    overlay.className = 'fullscreen-image-overlay';
+    // Create container for image and controls
+    const container = document.createElement('div');
+    container.className = 'image-coverage-container';
 
-    // Create close button
-    const closeBtn = document.createElement('button');
-    closeBtn.className = 'fullscreen-close-btn';
-    closeBtn.textContent = '✕';
-    closeBtn.title = 'Close';
-    closeBtn.onclick = () => overlay.remove();
-
-    // Create image
+    // Create image that covers entire space
     const img = document.createElement('img');
-    img.className = 'fullscreen-preview-image';
+    img.className = 'bottom-preview-image-full';
     img.alt = pathLabel;
     img.src = imageUrl;
 
-    // Create path label
+    // Create path label overlay
     const path = document.createElement('p');
-    path.className = 'fullscreen-image-path';
+    path.className = 'image-coverage-path';
     path.textContent = `Opened: ${pathLabel}`;
 
-    overlay.appendChild(path);
-    overlay.appendChild(img);
-    overlay.appendChild(closeBtn);
-    host.appendChild(overlay);
+    // Create close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'image-coverage-close-btn';
+    closeBtn.textContent = '✕';
+    closeBtn.title = 'Close image';
+    closeBtn.onclick = () => {
+        host.className = 'bottom-content';
+        host.innerHTML = '<p class="bottom-placeholder">Click on a menu item to view content</p>';
+    };
+
+    container.appendChild(img);
+    container.appendChild(path);
+    container.appendChild(closeBtn);
+    host.appendChild(container);
 }
 
 async function renderBottomPDF(pathLabel, pdfUrl) {
