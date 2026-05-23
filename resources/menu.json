@@ -2,13 +2,13 @@
     "Machine Learning": {
         "Supervised Learning":
         {
-            "Prerequisite-Part1" :["What_Is_Supervised_Learning.jpg","Types_Of_Data.jpg","Sample_VS_Population_And_DegreeOfFreedom.jpg",
+            "Prerequisite Part1" :["What_Is_Supervised_Learning.jpg","Types_Of_Data.jpg","Sample_VS_Population_And_DegreeOfFreedom.jpg",
             "Mean_Median_Mode.png","Slope_Of_A_Line.png","Standard_Deviation.png","Pearson_Correlation_Coefficient.jpg",
             "Covariance.jpg","Coefficient_Of_Determination.jpg"],
-            "Prerequisite-Part2" :["Confussion_Matrix.jpg","Logit.png",
+            "Prerequisite Part2" :["Confussion_Matrix.jpg","Logit.png",
             "Poisson_Distribution.png","Binomial_Distribution.png","ProbabilityVsMaximumLikelihood-Part1.png",
-            "ProbabilityVsMaximumLikelihood-Part2.png","ProbabilityVsMaximumLikelihood-Part3.png"],
-            "Prerequisite-Part3" :["Understand_Derivative.jpg","Multicollinearity.jpg","ANOVA.jpg","Encoding_And_1Hot_Encoding.jpg",
+            "ProbabilityVsMaximumLikelihood-Part2.png","ProbabilityVsMaximumLikelihood-Part3.png","Matrices_Part1.jpg","Matrices_Part2.jpg"],
+            "Prerequisite Part3" :["Understand_Derivative.jpg","Multicollinearity.jpg","ANOVA.jpg","Encoding_And_1Hot_Encoding.jpg",
             "GradientDescent.jpg"],
             "Understand":["Simple_Linear_Regression.jpg","Multiple_Linear_Regression-CaseStudy1.jpg",
             "Multiple_Linear_Regression-CaseStudy2.jpg",
@@ -20,14 +20,15 @@
         },
         "Unsupervised Learning":
         {   
-            "Prerequisite-Part1" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg",
-            "Entropy.jpg","Information_Gain.jpg"],
-            "Understand":["K-Means-Clustering-Part1.jpg","K-Means-Clustering-Part2.jpg","K-Means-Clustering-Part3.jpg"],
+            "Prerequisite Part1" :["What_Is_Unsupervised_Learning.jpg","EuclideanDistance.jpg"],
+            "Prerequisite Part2" :["Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg","Entropy.jpg","Information_Gain.jpg"],
+            "Understand":["K-Means-Clustering-Part1.jpg","K-Means-Clustering-Part2.jpg","K-Means-Clustering-Part3.jpg",
+            "DecisionTree_Classifier.jpg","DecisionTree_Regressor.jpg"],
             "TestYourself":["K-Means-Cluster-Task.jpg"]
         },  
         "Reinforcement Learning":
         {
-            "Prerequisite-Part1" :["What_Is_Reinforcement_Learning.jpg"],
+            "Prerequisite Part1" :["What_Is_Reinforcement_Learning.jpg"],
             "Understand":[""]
         }
     },
