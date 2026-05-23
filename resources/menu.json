@@ -14,24 +14,26 @@
             "Multiple_Linear_Regression-CaseStudy2.jpg",
             "Polynomial_Regression.jpg","Binary_Logistic_Regression-CaseStudy1.jpg",
             "Multinomial_Logistic_Regression-CaseStudy1.jpg","Ordinal_Logistic_Regression-CaseStudy1.jpg"],
-            "TestYourself":["K-Means-Cluster-Task.jpg"]
+            "TestYourself":["Simple_Linear_Regression_Task.jpg","Multiple_Linear_Regression_Task.jpg",
+            "Polynomial_Regression_Task.jpg","Binary_Logistic_Regression_Task.jpg","Multinomial_Logistic_Regression_Task.jpg",
+            "Ordinal_Logistic_Regression_Task.jpg","Polynomial_Logistic_Regression_Task.jpg"]
         },
         "Unsupervised Learning":
         {   
-            "Prerequisite" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg",
+            "Prerequisite-Part1" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg",
             "Entropy.jpg","Information_Gain.jpg"],
             "Understand":["K-Means-Clustering-Part1.jpg","K-Means-Clustering-Part2.jpg","K-Means-Clustering-Part3.jpg"],
             "TestYourself":["K-Means-Cluster-Task.jpg"]
         },  
         "Reinforcement Learning":
         {
-            "Prerequisite" :["What_Is_Reinforcement_Learning.jpg"],
+            "Prerequisite-Part1" :["What_Is_Reinforcement_Learning.jpg"],
             "Understand":[""]
         }
     },
     "Deep Learning": {
         "CNN":{
-           "Prerequisite" :["Neuron.png","Cross_Entropy.png"],
+           "Prerequisite-Part1" :["Neuron.png","Cross_Entropy.png"],
            "Understand":["CNN_Basics.ejagruti"]
         }
     },
