@@ -2,17 +2,19 @@
     "Machine Learning": {
         "Supervised Learning":
         {
-            "Prerequisite" :["What_Is_Supervised_Learning.jpg","Types_Of_Data.jpg","Sample_VS_Population_And_DegreeOfFreedom.jpg",
+            "Prerequisite-Part1" :["What_Is_Supervised_Learning.jpg","Types_Of_Data.jpg","Sample_VS_Population_And_DegreeOfFreedom.jpg",
             "Mean_Median_Mode.png","Slope_Of_A_Line.png","Standard_Deviation.png","Pearson_Correlation_Coefficient.jpg",
-            "Covariance.jpg","Coefficient_Of_Determination.jpg","Confussion_Matrix.jpg","Logit.png",
+            "Covariance.jpg","Coefficient_Of_Determination.jpg"],
+            "Prerequisite-Part2" :["Confussion_Matrix.jpg","Logit.png",
             "Poisson_Distribution.png","Binomial_Distribution.png","ProbabilityVsMaximumLikelihood-Part1.png",
             "ProbabilityVsMaximumLikelihood-Part2.png","ProbabilityVsMaximumLikelihood-Part3.png"],
-            "Prerequisite_Advance" :["Understand_Derivative.jpg","Multicollinearity.jpg","ANOVA.jpg","Encoding_And_1Hot_Encoding.jpg",
+            "Prerequisite-Part3" :["Understand_Derivative.jpg","Multicollinearity.jpg","ANOVA.jpg","Encoding_And_1Hot_Encoding.jpg",
             "GradientDescent.jpg"],
             "Understand":["Simple_Linear_Regression.jpg","Multiple_Linear_Regression-CaseStudy1.jpg",
             "Multiple_Linear_Regression-CaseStudy2.jpg",
             "Polynomial_Regression.jpg","Binary_Logistic_Regression-CaseStudy1.jpg",
-            "Multinomial_Logistic_Regression-CaseStudy1.jpg","Ordinal_Logistic_Regression-CaseStudy1.jpg"]
+            "Multinomial_Logistic_Regression-CaseStudy1.jpg","Ordinal_Logistic_Regression-CaseStudy1.jpg"],
+            "TestYourself":["K-Means-Cluster-Task.jpg"]
         },
         "Unsupervised Learning":
         {   
