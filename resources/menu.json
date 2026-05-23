@@ -13,12 +13,12 @@
             "Multiple_Linear_Regression-CaseStudy2.jpg",
             "Polynomial_Regression.jpg","Binary_Logistic_Regression-CaseStudy1.jpg",
             "Multinomial_Logistic_Regression-CaseStudy1.jpg","Ordinal_Logistic_Regression-CaseStudy1.jpg"]
-        
         },
         "Unsupervised Learning":
         {   
-            "Prerequisite" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg","Entropy.jpg","Information_Gain.jpg"],
-            "Understand":[""]
+            "Prerequisite" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg",
+            "Entropy.jpg","Information_Gain.jpg"],
+            "Understand":["K-Means-Clustering.jpg"]
         },  
         "Reinforcement Learning":
         {
