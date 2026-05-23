@@ -18,7 +18,8 @@
         {   
             "Prerequisite" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg",
             "Entropy.jpg","Information_Gain.jpg"],
-            "Understand":["K-Means-Clustering.jpg"]
+            "Understand":["K-Means-Clustering-Part1.jpg","K-Means-Clustering-Part2.jpg","K-Means-Clustering-Part3.jpg"],
+            "TestYourself":["K-Means-Cluster-Task.jpg"]
         },  
         "Reinforcement Learning":
         {
