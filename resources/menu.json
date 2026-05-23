@@ -7,7 +7,8 @@
             "Covariance.jpg","Coefficient_Of_Determination.jpg","Confussion_Matrix.jpg","Logit.png",
             "Poisson_Distribution.png","Binomial_Distribution.png","ProbabilityVsMaximumLikelihood-Part1.png",
             "ProbabilityVsMaximumLikelihood-Part2.png","ProbabilityVsMaximumLikelihood-Part3.png"],
-            "Prerequisite_Advance" :["Multicollinearity.jpg","ANOVA.jpg"],
+            "Prerequisite_Advance" :["Understand_Derivative.jpg","Multicollinearity.jpg","ANOVA.jpg","Encoding_And_1Hot_Encoding.jpg",
+            "GradientDescent.jpg"],
             "Understand":["Simple_Linear_Regression.jpg","Multiple_Linear_Regression-CaseStudy1.jpg",
             "Multiple_Linear_Regression-CaseStudy2.jpg",
             "Polynomial_Regression.jpg","Binary_Logistic_Regression-CaseStudy1.jpg",
@@ -16,7 +17,7 @@
         },
         "Unsupervised Learning":
         {   
-            "Prerequisite" :["What_Is_Unsupervised_Learning.jpg"],
+            "Prerequisite" :["What_Is_Unsupervised_Learning.jpg","Gini_Impurity-Part1.jpg","Gini_Impurity-Part2.jpg","Entropy.jpg","Information_Gain.jpg"],
             "Understand":[""]
         },  
         "Reinforcement Learning":
