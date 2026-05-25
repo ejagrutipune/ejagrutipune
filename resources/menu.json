@@ -1,4 +1,8 @@
 {
+    "AI": [
+        "AI_Ecosystems.png",
+        "AIvsMLvsDL.gif"
+    ],
     "Calculas": [
         "Derivative.png",
         "Slope_Of_A_Line.png",
@@ -25,72 +29,75 @@
             "RL_Using_QTable.ejagruti"
         ],
         "Supervised Learning": {
-            "Prerequisite Part1": [
-                "Binomial_Distribution.png",
-                "Coefficient_Of_Determination.jpg",
-                "Covariance.jpg",
-                "Mean_Median_Mode.png",
-                "Pearson_Correlation_Coefficient.jpg",
-                "Sample_VS_Population_And_DegreeOfFreedom.jpg",
-                "Slope_Of_A_Line.png",
-                "Standard_Deviation.png",
-                "Types_Of_Data.jpg"
-            ],
-            "Prerequisite Part2": [
-                "Confusion_Matrix.jpg",
-                "Logit.png",
-                "Matrices_Part1.png",
-                "Matrices_Part2.jpg",
-                "Poisson_Distribution.png",
-                "ProbabilityVsMaximumLikelihood-Part1.png",
-                "ProbabilityVsMaximumLikelihood-Part2.png",
-                "ProbabilityVsMaximumLikelihood-Part3.png"
-            ],
-            "Prerequisite Part3": [
-                "ANOVA.jpg",
-                "Derivative.png",
-                "Encoding_And_1Hot_Encoding.jpg",
-                "GradientDescent.jpg",
-                "Log.png",
-                "MultiCollinearity.jpg",
-                "Understand_Derivative.jpg"
-            ],
-            "TestYourself": [
-                "Binary_Logistic_Regression_Task.jpg",
-                "KNN-Task1.jpg",
-                "KNN-Task2.jpg",
-                "Multiple_Linear_Regression_Task.jpg",
-                "Ordinal_Logistic_Regression_Task.jpg",
-                "Polynomial_Logistic_Regression_Task.jpg",
-                "Polynomial_Regression_Task.jpg",
-                "Simple_Linear_Regression_Task.jpg"
-            ],
-            "Understand": [
-                "Binary_Logistic_Regression-CaseStudy1.jpg",
-                "Choosing_Best_K_In_KNN.jpg",
-                "KNN-Classification-Part1.jpg",
-                "KNN-Classification-Part2.jpg",
-                "KNN-Classification-Part3.jpg",
-                "KNN-Regression-Part1.jpg",
-                "KNN-Regression-Part2.jpg",
-                "Multinomial_Logistic_Regression-CaseStudy1.jpg",
-                "Multiple_Linear_Regression-CaseStudy1.jpg",
-                "Multiple_Linear_Regression-CaseStudy2.jpg",
-                "Ordinal_Logistic_Regression-CaseStudy1.jpg",
-                "Polynomial_Regression.jpg",
-                "Simple_Linear_Regression.jpg"
-            ],
-            "temp": [
-                "LassoRegressionTheory.xlsx",
-                "Logistic_Regression_For_Categorical_Data.ejagruti",
-                "MultipleLinearRegression.ejagruti",
-                "MultipleLinearRegression1.ejagruti",
-                "PolynomialRegression.ejagruti",
-                "RidgeRegression.ejagruti",
-                "RidgeRegressionTheory.xlsx",
-                "SimpleLinearRegression.ejagruti",
-                "SimpleLinearRegression1.ejagruti"
-            ]
+            "1 Simple Linear Regression": {
+                "1 Prerequisite": [
+                    "1-Sample_VS_Population_And_DegreeOfFreedom.jpg",
+                    "2-Types_Of_Data.jpg",
+                    "3-Mean_Median_Mode.png",
+                    "4-Standard_Deviation.png",
+                    "5-Slope_Of_A_Line.png",
+                    "6-Pearson_Correlation_Coefficient.jpg",
+                    "7-Coefficient_Of_Determination.jpg"
+                ],
+                "2 Understanding": [
+                    "SimpleLinearRegression.ejagruti",
+                    "SimpleLinearRegression1.ejagruti",
+                    "Simple_Linear_Regression.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "Simple_Linear_Regression_Task.jpg"
+                ]
+            },
+            "2 MultiLinear Regression": {
+                "1 Prerequisite": [
+                    "1-Covariance.jpg",
+                    "2-MultiCollinearity.jpg",
+                    "3-Derivative.png",
+                    "4-GradientDescent.jpg",
+                    "5a-Coefficient_Of_Determination.jpg",
+                    "5b-Covariance.jpg",
+                    "6-ANOVA.jpg",
+                    "7-Matrices_Part2.jpg",
+                    "8-Matrices_Part1.png",
+                    "HowGradientDescentWorks.xlsx"
+                ],
+                "2 Understanding": [
+                    "Multiple_Linear_Regression-CaseStudy1.jpg",
+                    "Multiple_Linear_Regression-CaseStudy2.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "Multiple_Linear_Regression_Task.jpg"
+                ]
+            },
+            "3 Polynomial Regression": {
+                "1 Prerequisite": [
+                    "Dimensions-1.png",
+                    "Dimensions-2.png"
+                ],
+                "2 Understanding": [
+                    "Polynomial_Regression.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "Polynomial_Regression_Task.jpg"
+                ]
+            },
+            "4 K Nearest Neighbours": {
+                "1 Prerequisite": [
+                    "EuclideanDistance.jpg"
+                ],
+                "2 Understanding": [
+                    "1-KNN-Classification-Part1.png",
+                    "1.1-CorrectValueOf-K-In-KNN.png",
+                    "2-KNN-Classification-Part2.png",
+                    "2.1-CorrectValueOf-K-In-KNN.png",
+                    "KNN-Regression-Part1.jpg",
+                    "KNN-Regression-Part2.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "KNN-Task1.jpg",
+                    "KNN-Task2.jpg"
+                ]
+            }
         },
         "Types Of Machine Learning": [
             "What_Is_Rienforcement_Learning.jpg",
@@ -98,41 +105,51 @@
             "What_Is_Unsupervised_Learning.jpg"
         ],
         "Unsupervised Learning": {
-            "Prerequisite Part1": [
-                "EuclideanDistance.jpg"
-            ],
-            "Prerequisite Part2": [
-                "Bagging.jpg",
-                "Boosting.jpg",
-                "Ensemble_Learning.jpg",
-                "Feature_Importance_In_RandomForest.jpg",
-                "Gini_Impurity-Part1.jpg",
-                "Gini_Impurity-Part2.jpg",
-                "Stacking.jpg"
-            ],
-            "TestYourself": [
-                "DecisionTree_Task.jpg",
-                "K-Means-Cluster-Task.jpg"
-            ],
-            "Understand": [
-                "DecisionTree-Classifier.jpg",
-                "DecisionTree-Regressor.jpg",
-                "K-Means-Clustering-Part1.png",
-                "K-Means-Clustering-Part2.jpg",
-                "K-Means-Clustering-Part3.jpg",
-                "RandomForest_Classification.jpg",
-                "RandomForest_Regression.jpg"
-            ],
-            "files": [
-                "Binomial_Distribution.png",
-                "Decision_Tree_Classification.ejagruti",
-                "Decision_Tree_Regressor.ejagruti",
-                "KMeans_Clustering.ejagruti"
-            ]
+            "1 K Mean Cluster": {
+                "1 Prerequisite": [
+                    "EuclideanDistance.jpg"
+                ],
+                "2 Understanding": [
+                    "K-Means-Clustering-Part1.png",
+                    "K-Means-Clustering-Part2.jpg",
+                    "K-Means-Clustering-Part3.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "K-Means-Cluster-Task.jpg"
+                ]
+            },
+            "2 Decision Tree": {
+                "1 Prerequisite": [
+                    "Gini_Impurity-Part1.jpg",
+                    "Gini_Impurity-Part2.jpg"
+                ],
+                "2 Understanding": [
+                    "DecisionTree-Classifier.jpg",
+                    "DecisionTree-Regressor.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "DecisionTree_Task.jpg"
+                ]
+            },
+            "3 Random Forest": {
+                "1 Prerequisite": [
+                    "1-Ensemble_Learning.jpg",
+                    "2-Bagging.jpg",
+                    "3-Boosting.jpg",
+                    "4-Stacking.jpg",
+                    "5-Feature_Importance_In_RandomForest.jpg"
+                ],
+                "2 Understanding": [
+                    "RandomForest_Classification.jpg",
+                    "RandomForest_Regression.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "Random-Forest-Task.png"
+                ]
+            }
         }
     },
     "Others": [
-        "AIvsMLvsDL.gif",
         "Core_Fundamental_Concepts.ejagruti",
         "GradientDescent.ejagruti",
         "HowGradientDescentWorks.xlsx",
@@ -173,5 +190,46 @@
         "ProbabilityVsMaximumLikelihood-Part3.png",
         "Standard_Deviation.png",
         "Statistics.ejagruti"
-    ]
+    ],
+    "temp": {
+        "Prerequisite Part1": [
+            "Binomial_Distribution.png"
+        ],
+        "Prerequisite Part2": [
+            "Confusion_Matrix.jpg",
+            "Logit.png",
+            "Poisson_Distribution.png",
+            "ProbabilityVsMaximumLikelihood-Part1.png",
+            "ProbabilityVsMaximumLikelihood-Part2.png",
+            "ProbabilityVsMaximumLikelihood-Part3.png"
+        ],
+        "Prerequisite Part3": [
+            "Encoding_And_1Hot_Encoding.jpg",
+            "Log.png"
+        ],
+        "TestYourself": [
+            "Binary_Logistic_Regression_Task.jpg",
+            "Ordinal_Logistic_Regression_Task.jpg",
+            "Polynomial_Logistic_Regression_Task.jpg"
+        ],
+        "Understand": [
+            "Binary_Logistic_Regression-CaseStudy1.jpg",
+            "Choosing_Best_K_In_KNN.jpg",
+            "Multinomial_Logistic_Regression-CaseStudy1.jpg",
+            "Ordinal_Logistic_Regression-CaseStudy1.jpg"
+        ],
+        "files": [
+            "Binomial_Distribution.png",
+            "Decision_Tree_Classification.ejagruti",
+            "Decision_Tree_Regressor.ejagruti",
+            "KMeans_Clustering.ejagruti",
+            "LassoRegressionTheory.xlsx",
+            "Logistic_Regression_For_Categorical_Data.ejagruti",
+            "MultipleLinearRegression.ejagruti",
+            "MultipleLinearRegression1.ejagruti",
+            "PolynomialRegression.ejagruti",
+            "RidgeRegression.ejagruti",
+            "RidgeRegressionTheory.xlsx"
+        ]
+    }
 }
