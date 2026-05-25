@@ -21,14 +21,9 @@
         "MatrixDotProducts.jpg"
     ],
     "Machine Learning": {
-        "Reinforcement Learning": {
-            "Prerequisite Part1": [
-                "What_Is_Rienforcement_Learning.jpg"
-            ],
-            "files": [
-                "RL_Using_QTable.ejagruti"
-            ]
-        },
+        "Reinforcement Learning": [
+            "RL_Using_QTable.ejagruti"
+        ],
         "Supervised Learning": {
             "Prerequisite Part1": [
                 "Binomial_Distribution.png",
@@ -39,8 +34,7 @@
                 "Sample_VS_Population_And_DegreeOfFreedom.jpg",
                 "Slope_Of_A_Line.png",
                 "Standard_Deviation.png",
-                "Types_Of_Data.jpg",
-                "What_Is_Supervised_Learning.jpg"
+                "Types_Of_Data.jpg"
             ],
             "Prerequisite Part2": [
                 "Confusion_Matrix.jpg",
@@ -87,10 +81,14 @@
                 "Simple_Linear_Regression.jpg"
             ]
         },
+        "Types Of Machine Learning": [
+            "What_Is_Rienforcement_Learning.jpg",
+            "What_Is_Supervised_Learning.jpg",
+            "What_Is_Unsupervised_Learning.jpg"
+        ],
         "Unsupervised Learning": {
             "Prerequisite Part1": [
-                "EuclideanDistance.jpg",
-                "What_Is_Unsupervised_Learning.jpg"
+                "EuclideanDistance.jpg"
             ],
             "Prerequisite Part2": [
                 "Bagging.jpg",
