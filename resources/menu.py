@@ -13,7 +13,7 @@ INCLUDE_EXTENSIONS = (
 )
 
 # Folders to exclude from menu generation
-EXCLUDE_FOLDERS = {'temp', '__pycache__', '.git', '.vscode', 'node_modules'}
+EXCLUDE_FOLDERS = {'__pycache__', '.git', '.vscode', 'node_modules'}
 
 
 def is_valid_file(filename):

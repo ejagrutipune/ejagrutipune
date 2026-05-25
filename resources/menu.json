@@ -79,6 +79,17 @@
                 "Ordinal_Logistic_Regression-CaseStudy1.jpg",
                 "Polynomial_Regression.jpg",
                 "Simple_Linear_Regression.jpg"
+            ],
+            "temp": [
+                "LassoRegressionTheory.xlsx",
+                "Logistic_Regression_For_Categorical_Data.ejagruti",
+                "MultipleLinearRegression.ejagruti",
+                "MultipleLinearRegression1.ejagruti",
+                "PolynomialRegression.ejagruti",
+                "RidgeRegression.ejagruti",
+                "RidgeRegressionTheory.xlsx",
+                "SimpleLinearRegression.ejagruti",
+                "SimpleLinearRegression1.ejagruti"
             ]
         },
         "Types Of Machine Learning": [
