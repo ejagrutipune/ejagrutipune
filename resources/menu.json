@@ -81,7 +81,7 @@
                     "Polynomial_Regression_Task.jpg"
                 ]
             },
-            "4 K Nearest Neighbours": {
+            "4 K Nearest Neighbour": {
                 "1 Prerequisite": [
                     "EuclideanDistance.jpg"
                 ],
@@ -96,6 +96,22 @@
                 "3 ProvideSolutions": [
                     "KNN-Task1.jpg",
                     "KNN-Task2.jpg"
+                ]
+            },
+            "5 Support Vector Machine": {
+                "1 Prerequisite": [
+                    "EuclideanDistance.jpg"
+                ],
+                "2 Understanding": [
+                    "1_Slope_Vs_Straight_Line.jpg",
+                    "2_Support_Vector_Direction.png",
+                    "3_DotProductOfWeights.jpg",
+                    "4_Calculate_Weights_And_Bias.png",
+                    "5_Searching_For_Closest_Vectors.png",
+                    "6_Support_Vector_Classification.png",
+                    "7_SoftMargin_Vs_HardMargin.png",
+                    "8-SVM_Classification_Using_SoftMargin.png",
+                    "9_SVM_Classification_Calculations.png"
                 ]
             }
         },
