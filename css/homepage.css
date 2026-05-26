@@ -113,6 +113,7 @@ body {
 
 .menu-container .l-btn:hover {
     background: linear-gradient(135deg, #274da6 0%, #6e278d 100%);
+    transition: all 0.2s ease;
 }
 
 .menu-container .l-btn-text {
@@ -144,6 +145,8 @@ body {
     box-shadow: 0 14px 32px rgba(35, 56, 122, 0.2);
     padding: 6px;
     background: linear-gradient(180deg, #fffdf7 0%, #f8f1df 100%);
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    pointer-events: auto;
 }
 
 .menu-item {
@@ -153,6 +156,7 @@ body {
     padding-bottom: 6px;
     border: 1px solid transparent;
     min-height: auto;
+    transition: all 0.2s ease;
 }
 
 .menu-item .menu-text {
@@ -172,6 +176,7 @@ body {
 .menu-active {
     border: 1px solid #e7d9bb;
     background: linear-gradient(135deg, #fbf3df 0%, #f5e8c8 100%);
+    transition: all 0.2s ease;
 }
 
 .group-menu-item .menu-text {
