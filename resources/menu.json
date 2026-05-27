@@ -12,13 +12,26 @@
     ],
     "Deep Learning": {
         "CNN": {
-            "Prerequisite Part1": [
-                "Cross_Entropy.png",
-                "Neuron.png",
-                "Vectors.jpg"
+            "1 Prerequisite": [
+                "10_DenseLayer.png",
+                "11_Cross_Entropy.png",
+                "1_Neuron.png",
+                "2.0_How_Convolution_Works.jpg",
+                "2.1_How_Convolution_Works.jpg",
+                "3_ReLU.png",
+                "4_Logit.png",
+                "5_Sigmoid.png",
+                "6_CNN_WorkFlow.jpg",
+                "7_Tanh.png",
+                "8_Forward_Backword_Propogation.png",
+                "9_SoftMax.png"
             ],
-            "Understand": [
-                "CNN_Basics.ejagruti"
+            "2 Understand": [
+                "1_CNN_Architecture.png",
+                "2_CNN_WorkFlow.png",
+                "3_Convolution_Example.png",
+                "4_complete_convolution_calculations.xlsx",
+                "5_CNN_Basics.ejagruti"
             ]
         }
     },
@@ -102,7 +115,8 @@
             },
             "5 Support Vector Machine": {
                 "1 Prerequisite": [
-                    "EuclideanDistance.jpg"
+                    "EuclideanDistance.jpg",
+                    "Vectors.jpg"
                 ],
                 "2 Understanding": [
                     "1_Slope_Vs_Straight_Line.jpg",
@@ -232,6 +246,24 @@
             "Python.ejagruti"
         ]
     },
+    "Sample Data": {
+        "handwritten digits": [
+            "2_bab_20x20_grayscale.png",
+            "2_dhr_20x20_grayscale.png",
+            "2_jag_20x20_grayscale.png",
+            "2_mns_20x20_grayscale.png",
+            "2_nha_20x20_grayscale.png",
+            "2_rch_20x20_grayscale.png",
+            "2_sum_20x20_grayscale.png",
+            "4_bab_20x20_grayscale.png",
+            "4_dhr_20x20_grayscale.png",
+            "4_jag_20x20_grayscale.png",
+            "4_mns_20x20_grayscale.png",
+            "4_nha_20x20_grayscale.png",
+            "4_rch_20x20_grayscale.png",
+            "4_sum_20x20_grayscale.png"
+        ]
+    },
     "Setup": [
         "CodingViaJupyterNotebook.ejagruti",
         "Python_Using_Google_Colab.ejagruti",
@@ -256,7 +288,6 @@
         ],
         "Prerequisite Part2": [
             "Confusion_Matrix.jpg",
-            "Logit.png",
             "Poisson_Distribution.png"
         ],
         "Prerequisite Part3": [
