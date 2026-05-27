@@ -1,7 +1,9 @@
 {
     "AI": [
-        "AI_Ecosystems.png",
-        "AIvsMLvsDL.gif"
+        "1_AI_Ecosystems.png",
+        "2_AIvsMLvsDL.gif",
+        "3-Sample_Vs_Population_DF.jpg",
+        "4-Types_Of_Data.jpg"
     ],
     "Calculas": [
         "Derivative.png",
@@ -25,14 +27,14 @@
         "MatrixDotProducts.jpg"
     ],
     "Machine Learning": {
-        "Reinforcement Learning": [
-            "RL_Using_QTable.ejagruti"
+        "1 Types Of Machine Learning": [
+            "What_Is_Rienforcement_Learning.jpg",
+            "What_Is_Supervised_Learning.jpg",
+            "What_Is_Unsupervised_Learning.jpg"
         ],
-        "Supervised Learning": {
+        "2 Supervised Learning": {
             "1 Simple Linear Regression": {
                 "1 Prerequisite": [
-                    "1-Sample_VS_Population_And_DegreeOfFreedom.jpg",
-                    "2-Types_Of_Data.jpg",
                     "3-Mean_Median_Mode.png",
                     "4-Standard_Deviation.png",
                     "5-Slope_Of_A_Line.png",
@@ -113,14 +115,52 @@
                     "8-SVM_Classification_Using_SoftMargin.png",
                     "9_SVM_Classification_Calculations.png"
                 ]
+            },
+            "6 Naive Bayes": {
+                "1 Gaussian Naive Bayes": {
+                    "1 Prerequisite": [
+                        "1_Bayes_Theoram.png",
+                        "2_Gaussian_Distribution.png",
+                        "3_ProbabilityVsMaximumLikelihood-Part1.png",
+                        "4_ProbabilityVsMaximumLikelihood-Part2.png",
+                        "5_ProbabilityVsMaximumLikelihood-Part3.png"
+                    ],
+                    "2 Understanding": [
+                        "1_Gaussian_Naive_Bayes.png",
+                        "2_Gaussian_Naive_Bayes.png"
+                    ],
+                    "3 ProvideSolutions": [
+                        "GNB_Task.png"
+                    ]
+                },
+                "1 Multinomial Naive Bayes": {
+                    "1 Prerequisite": [
+                        "Theory_Multinomial_Naive_Bayes.png"
+                    ],
+                    "2 Understanding": [
+                        "1_Multinomial_Naive_Bayes.png",
+                        "2_Multinomial_Naive_Bayes.png",
+                        "3_Multinomial_Naive_Bayes.png"
+                    ],
+                    "3 ProvideSolutions": [
+                        "MNB-Task.png"
+                    ]
+                },
+                "3 Bernoulli Naive Bayes": {
+                    "1 Prerequisite": [
+                        "Bernoulli_Distribution.png"
+                    ],
+                    "2 Understanding": [
+                        "1_Bernoulli_Naive_Bayes.png",
+                        "2_Bernoulli_Naive_Bayes.png"
+                    ],
+                    "3 ProvideSolutions": [
+                        "BNB_Task.png"
+                    ]
+                }
             }
         },
-        "Types Of Machine Learning": [
-            "What_Is_Rienforcement_Learning.jpg",
-            "What_Is_Supervised_Learning.jpg",
-            "What_Is_Unsupervised_Learning.jpg"
-        ],
-        "Unsupervised Learning": {
+        "3 Unsupervised Learning": {
             "1 K Mean Cluster": {
                 "1 Prerequisite": [
                     "EuclideanDistance.jpg"
@@ -163,7 +203,10 @@
                     "Random-Forest-Task.png"
                 ]
             }
-        }
+        },
+        "4 Reinforcement Learning": [
+            "RL_Using_QTable.ejagruti"
+        ]
     },
     "Others": [
         "Core_Fundamental_Concepts.ejagruti",
@@ -214,10 +257,7 @@
         "Prerequisite Part2": [
             "Confusion_Matrix.jpg",
             "Logit.png",
-            "Poisson_Distribution.png",
-            "ProbabilityVsMaximumLikelihood-Part1.png",
-            "ProbabilityVsMaximumLikelihood-Part2.png",
-            "ProbabilityVsMaximumLikelihood-Part3.png"
+            "Poisson_Distribution.png"
         ],
         "Prerequisite Part3": [
             "Encoding_And_1Hot_Encoding.jpg",
