@@ -11,6 +11,18 @@
         "Types_Of_Data.jpg"
     ],
     "Deep Learning": {
+        "ANN": {
+            "1 Prerequisite": [
+                "Embedding1.png",
+                "Understand_Chain_Rule.jpg"
+            ],
+            "2 Understand": [
+                "1-RNN.jpg"
+            ],
+            "3 ProvideSolutions": [
+                "RNN-Task.jpg"
+            ]
+        },
         "CNN": {
             "1 Prerequisite": [
                 "10_DenseLayer.png",
@@ -233,6 +245,7 @@
     ],
     "Sample Code": {
         "NumPy": [
+            "3-Working_With_Arrays.png",
             "NumPy.ejagruti"
         ],
         "OpenCV": [
@@ -243,6 +256,15 @@
             "Pandas.ejagruti"
         ],
         "Python": [
+            "1-DataTypes_Statements_Loop.png",
+            "2-StringOperations.png",
+            "3-Arrays.png",
+            "4-Dictionary.png",
+            "5_Class_Objects_Methods.png",
+            "6_Tuples_And_List.png",
+            "7_FileSystemObject_P1.png",
+            "8_FileSystemObject_P2.png",
+            "9_FileSystemObject_P3.png",
             "Python.ejagruti"
         ]
     },
