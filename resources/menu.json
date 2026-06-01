@@ -17,10 +17,9 @@
                 "Understand_Chain_Rule.jpg"
             ],
             "2 Understand": [
-                "1-RNN.jpg"
-            ],
-            "3 ProvideSolutions": [
-                "RNN-Task.jpg"
+                "1_ANN.jpg",
+                "2_ANN_Regressor.jpg",
+                "3_ANN_Regressor.jpg"
             ]
         },
         "CNN": {
@@ -44,6 +43,43 @@
                 "3_Convolution_Example.png",
                 "4_complete_convolution_calculations.xlsx",
                 "5_CNN_Basics.ejagruti"
+            ]
+        },
+        "RNN": {
+            "1 Prerequisite": [
+                "ChainRule.jpg",
+                "SingleCellRNN.jpg",
+                "What_IS_RNN.png"
+            ],
+            "2 Understand": {
+                "Many2One": [
+                    "10_Predict_First_Output_Word.png",
+                    "11_Feed_Predicted_Word_Back2RNN.png",
+                    "12_Cal_HiddenLayer1_ForWord_IS.png",
+                    "13_Calculate_Hidden_Layer2_Again_For_Is.png",
+                    "14_Predict_Second_Output_Word.png",
+                    "15_Feed_Approved_Back2RNN.png",
+                    "16_Calculate_HiddenLayer1&2_For_Approved.png",
+                    "17_Predict_Third_Output_Word_RNN.png",
+                    "18_Cal_HiddenLayer1&2_For_After.png",
+                    "19_Predict_Final_Output_Word.png",
+                    "1_RNN_ProblemStatement.png",
+                    "20_Calculate_Cross_Entropy_Loss.png",
+                    "21_Update_Weights_Bais.png",
+                    "22_Update_HiddenLayer2.png",
+                    "23_FinalSummary.png",
+                    "2_Given_Sample_Data.png",
+                    "3_RNN_Architecture.png",
+                    "4_Create_Vocabulary_&_Word_Index.png",
+                    "5_Create_Embedding_Vectors.png",
+                    "6_Decide_RNN_Model.png",
+                    "7_Initialize_Weight_&_Bias_HiddenLayer1.png",
+                    "8_Calculate_HiddenLayer1_Output.png",
+                    "9_Calculate_HiddenLayer2_Output.png"
+                ]
+            },
+            "3 ProvideSolutions": [
+                "1_RNN_Tasks.jpg"
             ]
         }
     },
@@ -305,6 +341,30 @@
         "Statistics.ejagruti"
     ],
     "temp": {
+        "1 Prerequisite": [
+            "ChainRule.jpg",
+            "What_IS_RNN.png"
+        ],
+        "2 Understand": {
+            "Many2One": [
+                "1_Many2One_RNN.png",
+                "2_Many2One_RNN.png",
+                "3_Many2One_RNN.png",
+                "4_Many2One_RNN.png",
+                "5_Many2One_RNN.png",
+                "6_Many2One_RNN.png"
+            ],
+            "One2Many": [
+                "1_One2Many_RNN_Summary.png",
+                "3_Step1_To_Step5.png",
+                "4_Step6_To_Step8.png",
+                "ChatGPT Image May 31, 2026, 11_03_58 AM.png",
+                "ChatGPT Image May 31, 2026, 11_20_16 AM.png"
+            ]
+        },
+        "3 ProvideSolutions": [
+            "1_RNN_Tasks.jpg"
+        ],
         "Prerequisite Part1": [
             "Binomial_Distribution.png"
         ],
