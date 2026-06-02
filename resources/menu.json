@@ -52,31 +52,51 @@
                 "What_IS_RNN.png"
             ],
             "2 Understand": {
-                "Many2One": [
-                    "10_Predict_First_Output_Word.png",
-                    "11_Feed_Predicted_Word_Back2RNN.png",
-                    "12_Cal_HiddenLayer1_ForWord_IS.png",
-                    "13_Calculate_Hidden_Layer2_Again_For_Is.png",
-                    "14_Predict_Second_Output_Word.png",
-                    "15_Feed_Approved_Back2RNN.png",
-                    "16_Calculate_HiddenLayer1&2_For_Approved.png",
-                    "17_Predict_Third_Output_Word_RNN.png",
-                    "18_Cal_HiddenLayer1&2_For_After.png",
-                    "19_Predict_Final_Output_Word.png",
-                    "1_RNN_ProblemStatement.png",
-                    "20_Calculate_Cross_Entropy_Loss.png",
-                    "21_Update_Weights_Bais.png",
-                    "22_Update_HiddenLayer2.png",
-                    "23_FinalSummary.png",
-                    "2_Given_Sample_Data.png",
-                    "3_RNN_Architecture.png",
-                    "4_Create_Vocabulary_&_Word_Index.png",
-                    "5_Create_Embedding_Vectors.png",
-                    "6_Decide_RNN_Model.png",
-                    "7_Initialize_Weight_&_Bias_HiddenLayer1.png",
-                    "8_Calculate_HiddenLayer1_Output.png",
-                    "9_Calculate_HiddenLayer2_Output.png"
-                ]
+                "Many2One": {
+                    "CaseStudy1": [
+                        "10_Reduce_SSE_Using_BPTT.png",
+                        "11_After_Many_Iterations.jpg",
+                        "12_Check_Model_On_ValidationData.png",
+                        "13_Final_Evaluations.png",
+                        "14_Final_RNN_Architecture.png",
+                        "1_ProblemStatement.png",
+                        "2_Data_Normalization.png",
+                        "3_Understand_Our_Goal.png",
+                        "4_RNN_Overview.png",
+                        "5_General_RNN_Architecture.png",
+                        "6_Unfold_Hidden_Layer.png",
+                        "7_Identify_Weight_And_Baises.png",
+                        "8_How_Each_Unfold_Layer_Computes_Value.png",
+                        "9_Identify_Diff_Between_TargetVsPredicted_Value.png"
+                    ]
+                },
+                "One2Many": {
+                    "CaseStudy1": [
+                        "10_Predict_First_Output_Word.png",
+                        "11_Feed_Predicted_Word_Back2RNN.png",
+                        "12_Cal_HiddenLayer1_ForWord_IS.png",
+                        "13_Calculate_Hidden_Layer2_Again_For_Is.png",
+                        "14_Predict_Second_Output_Word.png",
+                        "15_Feed_Approved_Back2RNN.png",
+                        "16_Calculate_HiddenLayer1&2_For_Approved.png",
+                        "17_Predict_Third_Output_Word_RNN.png",
+                        "18_Cal_HiddenLayer1&2_For_After.png",
+                        "19_Predict_Final_Output_Word.png",
+                        "1_RNN_ProblemStatement.png",
+                        "20_Calculate_Cross_Entropy_Loss.png",
+                        "21_Update_Weights_Bais.png",
+                        "22_Update_HiddenLayer2.png",
+                        "23_FinalSummary.png",
+                        "2_Given_Sample_Data.png",
+                        "3_RNN_Architecture.png",
+                        "4_Create_Vocabulary_&_Word_Index.png",
+                        "5_Create_Embedding_Vectors.png",
+                        "6_Decide_RNN_Model.png",
+                        "7_Initialize_Weight_&_Bias_HiddenLayer1.png",
+                        "8_Calculate_HiddenLayer1_Output.png",
+                        "9_Calculate_HiddenLayer2_Output.png"
+                    ]
+                }
             },
             "3 ProvideSolutions": [
                 "1_RNN_Tasks.jpg"
