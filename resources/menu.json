@@ -100,7 +100,26 @@
             },
             "3 ProvideSolutions": [
                 "1_RNN_Tasks.jpg"
-            ]
+            ],
+            "4 LSTM": {
+                "1 Prerequisite": [
+                    "1_Vanishing_Gradient_Problem.jpg",
+                    "2_About_LSTM.jpg",
+                    "3_Forget_Gate_In_LSTM.jpg",
+                    "4_Output_Gate_In_LSTM.jpg"
+                ],
+                "2 Understand": [
+                    "1_Understand_LSTM_Cell_In_RNN.png",
+                    "2_LSTM_With_2Hidden_Layers_With_SingleNeuron.png",
+                    "3_LSTM_With_2HiddenLayers_With_MultiNeurons.png",
+                    "4_How_Calculate_Weight_And_Bias.png",
+                    "5_Understand_Forget_Gate.png",
+                    "6_Understand_Input_Gate.png",
+                    "7_Understand_Candidate_Value.png",
+                    "8_Understand_Output_Gate.png",
+                    "9_Complete_LSTM_Flow.png"
+                ]
+            }
         }
     },
     "Linear Algebra": [
@@ -291,6 +310,7 @@
         ]
     },
     "Others": [
+        "Bias_Variance_TradeOff.jpg",
         "Core_Fundamental_Concepts.ejagruti",
         "GradientDescent.ejagruti",
         "HowGradientDescentWorks.xlsx",
