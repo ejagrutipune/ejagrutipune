@@ -322,6 +322,15 @@
             ]
         }
     },
+    "OpenCV": {
+        "1 Understand": [
+            "1_OpenCV_Part1.png",
+            "2_OpenCV_Part2.png",
+            "3_OpenCV_Part3.png",
+            "4_OpenCV_Part4.png",
+            "ComputerVision.ipynb"
+        ]
+    },
     "Others": [
         "Bias_Variance_TradeOff.jpg",
         "Core_Fundamental_Concepts.ejagruti",
