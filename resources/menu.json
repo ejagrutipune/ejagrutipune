@@ -309,6 +309,19 @@
             "RL_Using_QTable.ejagruti"
         ]
     },
+    "NLP": {
+        "TRANSFORMER": {
+            "1 Understanding": [
+                "1_Transformer_Part1.png",
+                "2_Transformer_Part2.png",
+                "3_Transformer_Part3.png",
+                "4_Transformer_Part4.png",
+                "5_Why_Layer_Normalization.png",
+                "6_Transformer_Part5.png",
+                "7_Transformer_Part6.png"
+            ]
+        }
+    },
     "Others": [
         "Bias_Variance_TradeOff.jpg",
         "Core_Fundamental_Concepts.ejagruti",
@@ -317,7 +330,9 @@
         "LogisticRegressionBasics_for_binary_data.xlsx",
         "LossFunction.jpg",
         "ReinforcementLearning.jpg",
-        "UnSupervisedLearning.jpg"
+        "UnSupervisedLearning.jpg",
+        "What_is_Decoder.jpg",
+        "What_is_Encoder.jpg"
     ],
     "Sample Code": {
         "NumPy": [
