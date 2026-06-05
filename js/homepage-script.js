@@ -381,8 +381,8 @@ function renderDynamicMenu(menuData) {
 
         const menuButtons = window.jQuery(host).find('.easyui-menubutton');
         menuButtons.menubutton({
-            duration: 300,
-            hideDelay: 300,
+            duration: 1000,
+            hideDelay: 1000,
             hasDownArrow: true
         });
         if (status) {
