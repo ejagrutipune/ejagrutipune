@@ -206,7 +206,7 @@
                     "Vectors.jpg"
                 ],
                 "2 Understanding": {
-                    "New": [
+                    "1 CaseStudy1": [
                         "1_Why_SVM.jpg",
                         "2_Problem_Statements.jpg",
                         "3_Identify_Support_Vectors.jpg",
@@ -214,7 +214,7 @@
                         "5_Evaluate_Model_Performance.jpg",
                         "6_HardMargin_Vs_SoftMargin.jpg"
                     ],
-                    "files": [
+                    "2 CaseStudy2": [
                         "1_Slope_Vs_Straight_Line.jpg",
                         "2_Support_Vector_Direction.png",
                         "3_DotProductOfWeights.jpg",
