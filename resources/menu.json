@@ -205,17 +205,27 @@
                     "EuclideanDistance.jpg",
                     "Vectors.jpg"
                 ],
-                "2 Understanding": [
-                    "1_Slope_Vs_Straight_Line.jpg",
-                    "2_Support_Vector_Direction.png",
-                    "3_DotProductOfWeights.jpg",
-                    "4_Calculate_Weights_And_Bias.png",
-                    "5_Searching_For_Closest_Vectors.png",
-                    "6_Support_Vector_Classification.png",
-                    "7_SoftMargin_Vs_HardMargin.png",
-                    "8-SVM_Classification_Using_SoftMargin.png",
-                    "9_SVM_Classification_Calculations.png"
-                ]
+                "2 Understanding": {
+                    "New": [
+                        "1_Why_SVM.jpg",
+                        "2_Problem_Statements.jpg",
+                        "3_Identify_Support_Vectors.jpg",
+                        "4_Calculate_Weights_And_Bias.jpg",
+                        "5_Evaluate_Model_Performance.jpg",
+                        "6_HardMargin_Vs_SoftMargin.jpg"
+                    ],
+                    "files": [
+                        "1_Slope_Vs_Straight_Line.jpg",
+                        "2_Support_Vector_Direction.png",
+                        "3_DotProductOfWeights.jpg",
+                        "4_Calculate_Weights_And_Bias.png",
+                        "5_Searching_For_Closest_Vectors.png",
+                        "6_Support_Vector_Classification.png",
+                        "7_SoftMargin_Vs_HardMargin.png",
+                        "8-SVM_Classification_Using_SoftMargin.png",
+                        "9_SVM_Classification_Calculations.png"
+                    ]
+                }
             },
             "6 Naive Bayes": {
                 "1 Gaussian Naive Bayes": {
@@ -462,7 +472,8 @@
             "MultipleLinearRegression1.ejagruti",
             "PolynomialRegression.ejagruti",
             "RidgeRegression.ejagruti",
-            "RidgeRegressionTheory.xlsx"
+            "RidgeRegressionTheory.xlsx",
+            "~$RidgeRegressionTheory.xlsx"
         ]
     }
 }
