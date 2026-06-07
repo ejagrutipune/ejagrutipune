@@ -8,4 +8,4 @@ step2: click on 3 lines and select
     "Tausif Perampalli":"tperampa@gmail.com",
     
     "Vivek Kulkarni":"v.v.kulkarni023@gmail.com",
-        "Sopan Varpe":"sopvarpe@gmail.com",
+        "Sopan Varpe":"sopvarpe@gmail.com"
