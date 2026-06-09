@@ -2,6 +2,8 @@ Google cloud url :https://console.cloud.google.com/welcome?project=pacific-castl
 step1 :Create a project : here i have created a project having name ejagrutipune
 step2: click on 3 lines and select 
 
+https://www.moneycontrol.com/mc/indianindices/chart?indice_id=51 - Nifty Metal
+
 
     "Sneha Deshpande":"sneha.deshpande23@gmail.com",
         "Ashish Mhaske":"ashishpm90@gmail.com",

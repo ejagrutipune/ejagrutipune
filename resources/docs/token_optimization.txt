@@ -1,0 +1,13 @@
+Token Optimization Guide for GitHub Copilot:
+ 
+#	Action	Primary Effect	Time to Set Up
+1	Request code-only responses — addCode only, no explanation. to copilot-instructions.md. Highest per-token ROI: output costs 5× more than input, and this cuts 40-70% of output on every code task, permanently	Shrinks response length	0 minutes
+2	Constrain output format by default — addBullets over paragraphs. No explanations unless asked. to copilot-instructions.md	Keeps answers terse	0 minutes
+3	Shrink your always-on context — compresscopilot-instructions.md AND prune AGENTS.md to landmines only. Every token in either file is billed on every interaction (and every agent step). Strip filler, delete anything the agent discovers by reading code, delete LLM-generated/init boilerplate	Reduces always-on input/context	15 minutes
+4	Default to Auto model selection — use Auto as the baseline because it chooses from the supported Auto pool and gives a paid-plan discount. Pin higher-cost models manually when a task clearly justifies them. See Model Selection & Pricing	Lowers billed rate on eligible usage	0 minutes
+5	Use Ask Mode for simple questions — reserve Agent Mode for multi-step tasks	Avoids agent overhead	0 minutes (just choose the right mode)
+6	Scope context with applyTo: paths — split one large instructions file into small scoped ones that load only when relevant	Reduces always-on input/context	15 minutes
+7	Be precise in your prompts — "Add null check togetUser()" not "Can you please look at this and maybe add some error handling?" Note: your typed prompt is a small fraction of total input; precision matters more for quality than for raw token savings	Improves task targeting	0 minutes
+8	Retune prompts to the target model — provider prompting guides change by model/version. Paste the official guide URL into Copilot and ask it to adapt.github/copilot-instructions.md, agent profiles, or app prompts for the model you actually use	Reduces rework	10 minutes per model change
+ 
+Source: olivomarco/github-copilot-token-optimization: Techniques to optimize token usage on GitHub Copilot
