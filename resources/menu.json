@@ -6,6 +6,7 @@
         "4-Types_Of_Data.jpg"
     ],
     "Calculas": [
+        "ChainRules_Derivative.jpg",
         "Derivative.png",
         "Slope_Of_A_Line.png",
         "Types_Of_Data.jpg"
@@ -50,6 +51,22 @@
                 "3_Convolution_Example.png",
                 "4_complete_convolution_calculations.xlsx",
                 "5_CNN_Basics.ejagruti"
+            ],
+            "4 UNet Architecture": [
+                "10_Step15_Step16.jpg",
+                "11_Step17_Step18.jpg",
+                "12_Step19_Step20.jpg",
+                "13_Step21_Step22.jpg",
+                "14_Step23_Step24.jpg",
+                "1_What_is_UNet_Architecture.jpg",
+                "2_ProblemStatement.png",
+                "3_Step1_Step2.jpg",
+                "4_Step3_Step4.jpg",
+                "5_Step5_Step6.jpg",
+                "6_Step7_Step8.jpg",
+                "7_Step9_Step10.jpg",
+                "8_Step11_Step12.jpg",
+                "9_Step13_Step14.jpg"
             ]
         },
         "RNN": {
@@ -276,6 +293,27 @@
                         "BNB_Task.png"
                     ]
                 }
+            },
+            "7 Logistic Regression": {
+                "1 Prerequisite": [
+                    "1_Confussion_Matrix.jpg"
+                ],
+                "2 ProvideSolutions": [
+                    "1_CaseStudy.jpg",
+                    "2_CastStudy.jpg"
+                ],
+                "3 Understanding": [
+                    "1_Why_Logistic_Regression.jpg",
+                    "2_Problem_Statement.jpg",
+                    "3_Z_Score_Data_Normalization.jpg",
+                    "4_Step1_Step6.jpg",
+                    "5_Step7_Step10.jpg",
+                    "6_Step11_Step13.jpg",
+                    "7_Calculate_Gradients.jpg",
+                    "Binary_Logistic_Regression.jpg",
+                    "Multinomial_Logistic_Regression.jpg",
+                    "Ordinal_Logistic_Regression.jpg"
+                ]
             }
         },
         "3 Unsupervised Learning": {
@@ -370,6 +408,18 @@
             "VideoProcessing.py"
         ],
         "Pandas": [
+            "10_Adv_Pandas_Operations_Part1.png",
+            "11_Adv_Pandas_Operations_Part2.png",
+            "12_Time_Series_Analysis.png",
+            "1_Series.png",
+            "2_Read_DataFrame.png",
+            "3_Exploring_And_Selecting_Data.png",
+            "4_Sorting_Cleaning_Data.png",
+            "5_DataTransformation_GroupBy.png",
+            "6_Join_Merge_PivotTable.png",
+            "7_DateTime_&_String_Operations.png",
+            "8_Categorical_Data_&_WinFunctions.png",
+            "9_DataVisualization_&_PerformanceOptimization.png",
             "Pandas.ejagruti"
         ],
         "Python": [
@@ -479,8 +529,7 @@
             "MultipleLinearRegression1.ejagruti",
             "PolynomialRegression.ejagruti",
             "RidgeRegression.ejagruti",
-            "RidgeRegressionTheory.xlsx",
-            "~$RidgeRegressionTheory.xlsx"
+            "RidgeRegressionTheory.xlsx"
         ]
     }
 }
