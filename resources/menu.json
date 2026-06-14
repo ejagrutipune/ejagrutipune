@@ -296,13 +296,19 @@
             },
             "7 Logistic Regression": {
                 "1 Prerequisite": [
-                    "1_Confussion_Matrix.jpg"
+                    "10_Confussion_Matrix.jpg",
+                    "1_BeforeWeStart.jpg",
+                    "2_Growth.jpg",
+                    "2_Log.jpg",
+                    "3_Log.png",
+                    "4_EulerNumber.jpg",
+                    "5_NaturalLog.jpg",
+                    "6_Odds.jpg",
+                    "7_LogOfOdds.jpg",
+                    "8_Logit.png",
+                    "9_Logistic_Regression_Sigmoid_Equation.jpg"
                 ],
-                "2 ProvideSolutions": [
-                    "1_CaseStudy.jpg",
-                    "2_CastStudy.jpg"
-                ],
-                "3 Understanding": [
+                "2 Understanding": [
                     "1_Why_Logistic_Regression.jpg",
                     "2_Problem_Statement.jpg",
                     "3_Z_Score_Data_Normalization.jpg",
@@ -313,6 +319,10 @@
                     "Binary_Logistic_Regression.jpg",
                     "Multinomial_Logistic_Regression.jpg",
                     "Ordinal_Logistic_Regression.jpg"
+                ],
+                "3 ProvideSolutions": [
+                    "1_CaseStudy.jpg",
+                    "2_CastStudy.jpg"
                 ]
             }
         },
@@ -486,11 +496,11 @@
                 "6_Many2One_RNN.png"
             ],
             "One2Many": [
+                "1ToMany.png",
                 "1_One2Many_RNN_Summary.png",
                 "3_Step1_To_Step5.png",
                 "4_Step6_To_Step8.png",
-                "ChatGPT Image May 31, 2026, 11_03_58 AM.png",
-                "ChatGPT Image May 31, 2026, 11_20_16 AM.png"
+                "One_2_Many.png"
             ]
         },
         "3 ProvideSolutions": [
