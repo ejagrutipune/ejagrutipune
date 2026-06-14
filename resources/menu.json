@@ -188,6 +188,8 @@
                     "HowGradientDescentWorks.xlsx"
                 ],
                 "2 Understanding": [
+                    "MultipleLinearRegression-CaseStudy3.ejagruti",
+                    "MultipleLinearRegression1-CaseStudy4.ejagruti",
                     "Multiple_Linear_Regression-CaseStudy1.jpg",
                     "Multiple_Linear_Regression-CaseStudy2.jpg"
                 ],
@@ -300,8 +302,8 @@
                     "1_BeforeWeStart.jpg",
                     "2_Growth.jpg",
                     "2_Log.jpg",
-                    "3_Log.png",
-                    "4_EulerNumber.jpg",
+                    "3_EulerNumber.jpg",
+                    "4_Log.png",
                     "5_NaturalLog.jpg",
                     "6_Odds.jpg",
                     "7_LogOfOdds.jpg",
@@ -535,8 +537,6 @@
             "KMeans_Clustering.ejagruti",
             "LassoRegressionTheory.xlsx",
             "Logistic_Regression_For_Categorical_Data.ejagruti",
-            "MultipleLinearRegression.ejagruti",
-            "MultipleLinearRegression1.ejagruti",
             "PolynomialRegression.ejagruti",
             "RidgeRegression.ejagruti",
             "RidgeRegressionTheory.xlsx"
