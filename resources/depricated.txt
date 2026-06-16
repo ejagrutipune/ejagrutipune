@@ -1,2 +1,6 @@
 "Piyush Tiwari":"piyushtiwari97@gmail.com",
 "Sneha Bhadrige":"bhadrigesneha1196@gmail.com",
+
+    "Dharmraj Bhapkar":"dharmraj.bhapkar@gmail.com",
+    
+    "Samarth Jagadale":"saj.sam007@gmail.com",
