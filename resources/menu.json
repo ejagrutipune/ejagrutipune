@@ -370,10 +370,18 @@
                 "3 ProvideSolutions": [
                     "Random-Forest-Task.png"
                 ]
-            }
+            },
+            "4 Hierarchical Clustering": [
+                "CaseStudy1_Hierarchical_Clustering.jpg",
+                "CaseStudy2_Hierarchical_Clustering.jpg"
+            ]
         },
         "4 Reinforcement Learning": [
-            "RL_Using_QTable.ejagruti"
+            "RL_Using_QTable.ejagruti",
+            "RL_evaluation_safety.png",
+            "RL_production_reality_check.png",
+            "RL_simulator_learning.png",
+            "RL_state_actions_reward.png"
         ]
     },
     "NLP": {
@@ -445,6 +453,11 @@
             "8_FileSystemObject_P2.png",
             "9_FileSystemObject_P3.png",
             "Python.ejagruti"
+        ],
+        "Visualization": [
+            "MatPlotLib.jpg",
+            "Plotly.jpg",
+            "Seaborn.jpg"
         ]
     },
     "Sample Data": {

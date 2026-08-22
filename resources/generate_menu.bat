@@ -10,17 +10,17 @@ title Ejagruti Menu Generator
 ::Change to the script directory
 cd /d "%~dp0"
 
-::Check if Python is installed
-python --version >nul 2>&1
+::Check if UV is installed
+uv --version >nul 2>&1
 if errorlevel 1 (
     color 0C
     echo.
     echo =========================================================
-    echo ERROR: Python is not installed or not in PATH
+    echo ERROR: UV is not installed or not in PATH
     echo =========================================================
     echo.
-    echo Please install Python from: https://www.python.org/
-    echo Make sure to check "Add Python to PATH" during installation
+    echo Please install UV from: https://docs.astral.sh/uv/
+    echo or run: winget install --id=astral-sh.uv -e
     echo.
     pause
     exit /b 1
@@ -30,10 +30,11 @@ if errorlevel 1 (
 echo.
 echo =========================================================
 echo   Starting Ejagruti Menu Generator
+
 echo =========================================================
 echo.
 
-python menu.py
+uv run python menu.py
 
 ::Check if successful
 if errorlevel 1 (
