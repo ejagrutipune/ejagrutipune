@@ -377,11 +377,11 @@
             ]
         },
         "4 Reinforcement Learning": [
-            "RL_Using_QTable.ejagruti",
-            "RL_evaluation_safety.png",
-            "RL_production_reality_check.png",
-            "RL_simulator_learning.png",
-            "RL_state_actions_reward.png"
+            "1_RL_state_actions_reward.png",
+            "2_RL_simulator_learning.png",
+            "3_RL_evaluation_safety.png",
+            "4_RL_production_reality_check.png",
+            "RL_Using_QTable.ejagruti"
         ]
     },
     "NLP": {
